@@ -1,0 +1,135 @@
+[ 
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$180000$hWf36WmAiXqZ$2ZSTC8tfjF/Jh2bGSJFkHlFR4UsaPhku4U8R5vSpXqo=",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$180000$6sKifGYJ5UvD$EoNtPFstUR1ETrHcjQS5yFT+2dcFE1KLwBP/mxEQZeI=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "User1",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "maps.objecttype",
+    "pk": 1,
+    "fields": {
+      "name": "Маленький"
+    }
+  },
+  {
+    "model": "maps.objecttype",
+    "pk": 2,
+    "fields": {
+      "name": "Средний"
+    }
+  },
+  {
+    "model": "maps.objecttype",
+    "pk": 3,
+    "fields": {
+      "name": "Большой"
+    }
+  },
+  {
+    "model": "maps.objecttype",
+    "pk": 4,
+    "fields": {
+      "name": "Огромный"
+    }
+  },
+  {
+    "model": "maps.object",
+    "pk": 1,
+    "fields": {
+      "object_type": 1,
+      "description": "Это объект номер 1"
+    }
+  },
+  {
+    "model": "maps.object",
+    "pk": 2,
+    "fields": {
+      "object_type": 2,
+      "description": "Это объект номер 2"
+    }
+  },
+  {
+    "model": "maps.object",
+    "pk": 3,
+    "fields": {
+      "object_type": 3,
+      "description": "Это объект номер 3"
+    }
+  },
+  {
+    "model": "maps.object",
+    "pk": 4,
+    "fields": {
+      "object_type": 4,
+      "description": "Это объект номер 4"
+    }
+  },
+  {
+    "model": "maps.object",
+    "pk": 5,
+    "fields": {
+      "object_type": 2,
+      "description": "Это объект номер 5"
+    }
+  },
+  {
+    "model": "maps.object",
+    "pk": 6,
+    "fields": {
+      "object_type": 3,
+      "description": "Это объект номер 6"
+    }
+  },
+  {
+    "model": "maps.object",
+    "pk": 7,
+    "fields": {
+      "object_type": 4,
+      "description": "Это объект номер 7"
+    }
+  },
+  {
+    "model": "maps.object",
+    "pk": 8,
+    "fields": {
+      "object_type": 2,
+      "description": "Это объект номер 8"
+    }
+  },
+  {
+    "model": "maps.object",
+    "pk": 9,
+    "fields": {
+      "object_type": 1,
+      "description": "Это объект номер 9"
+    }
+  }
+]
